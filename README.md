@@ -9,4 +9,6 @@ source venv/bin/activate
 # install all the dependencies
 pip install -r requirements.txt
 
+# run the project
+uvicorn main:app --reload
 ```
